@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>插入表格</title>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">用户名：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="text"/></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">密码：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password" name="名称"/></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">确认密码：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password" name="名称"/></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">性别：</td>
+				<td width="309" bgcolor="#FFFFFF">男<input type="radio" value="Male" name="sex" checked="checked"/>
+				女<input type="radio" value="feMale"name="sex"/></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">生日：</td>
+				<td width="309" bgcolor="#FFFFFF">
+					<select name="leixing">
+					<option value="two">公历</option>
+					<option value="three">阴历</option>
+					</select>
+					<select name="nian">
+					<option value="two">年 </option>
+					<option value="three">1998</option>
+					</select>
+					<select name="yue">
+					<option value="two">月  </option>
+					<option value="three"> </option>
+					</select>
+					<select name="ri">
+					<option value="two">日  </option>
+					<option value="three"> </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">所在地：</td>
+				<td width="79" bgcolor="#FFFFFF">
+					<select name="nation">
+						<option value="two" selected="selected">中国</option>
+						<option value="three">美国</option>
+					</select>
+					<select name="province">
+						<option value="two" selected="selected">河北</option>
+						<option value="three">北京</option>
+					</select>
+					<select name="city">
+						<option value="two" selected="selected">石家庄</option>
+						<option value="three">唐山</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">验证码：</td>
+				<td width="79" bgcolor="#FFFFFF"><input type="txet" name="名称"/><img src="yanzhengma.jpg" width="80" height="25"/>
+				</td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">证件类型：</td>
+				<td width="79" bgcolor="#FFFFFF">
+					<select name="type">
+						<option value="two" selected="selected">身份证</option>
+						<option value="three">学生证</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">爱好：</td>
+				<td><input type="checkbox" value="hobby1" name="hobby"/>音乐
+				<input type="checkbox" value="hobby1" name="hobby"/>读书
+				<input type="checkbox" value="hobby1" name="hobby"/>跳舞
+				<input type="checkbox" value="hobby1" name="hobby"/>下棋
+				<input type="checkbox" value="hobby1" name="hobby"/>其他</td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">说明：</td>
+				<td><textarea cols="4" rows="2" style="width:400px;height:160px;"></textarea></td>
+			</tr>
+			<tr>
+				<td width="79" bgcolor="#FFFFFF">上传头像</td>
+				<td><input type="file" name="files"/></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" value= " 提交" name= "sub" />
+					<input type="reset" value= " 重置" name= "res" />
+					<input type = "button" value= "按钮" name= "but" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
