@@ -1,0 +1,174 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	border:none;
+	font-family:'宋体';
+	list-style:none;
+}
+body{
+	width:100%;
+	font-size:12px;
+	background-image:url(../images/bodybg.gif)
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#header{
+	height:205px;
+	background:url(../images/bg.gif) no-repeat center top;
+
+}
+#banner{
+	width:1000px;
+	height:130px;
+	padding-top:38px;
+	margin:auto;	
+}
+#banner img{
+	display:block;
+	margin-left:10px;
+}
+#nav{
+	height:40px;
+	background:url(../images/nav.jpg);
+	margin:auto;
+}
+.nav_content{
+	width:800px;
+	font-weight:bold;
+	color:#fff;
+	height:40px;
+	padding-top:12px;
+	margin-left:120px;
+	float:left;
+}
+.nav_content a{
+	color:#fff;
+}
+.nav_content a:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.shouye{
+	color:#f9f603;
+}
+.nav_search{
+	float:left;
+	width:200px;
+	height:21px;
+	background-color:#f8f5ee;
+	margin-top:10px;
+	padding-right:0px;
+}
+.sousuokuang{
+	width:140px;
+	height:21px;
+	border:none;
+}
+.button{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#content{
+	width:1000px;
+	position:center;
+}
+#content_left{
+	width:700px;
+	float:left;
+}
+#one h2{
+	font-size:16px;
+	height:45px;
+	line-height:45px;
+	margin:10px;
+	border-bottom:1px solid #c9baa5;
+}
+#one h3{
+	font-size:12px;
+	color:#757575;
+	margin:0px auto;
+	position:center;
+}
+#two{
+	height:600px;
+	padding:10px;
+	font-size:14px;
+	border-bottom:1px solid #c9baa5;
+}
+#two p{
+	margin-top:5px;
+}
+.tupian{
+	margin:20px;
+}
+#three{
+	height:40px;
+	line-height:40px;
+	margin-top:10px;
+	font-size:13px;
+}
+#three a{
+	margin-right:40px;
+	color:#844004;
+	font-size:13px;
+}
+#content_right{
+	width:280px;
+	float:left;
+	margin-left:16px;
+}
+#right_one{
+	border:1px solid #c9baa5;
+	background-image:url(../images/bg.png);
+	margin-bottom:20px;
+}
+.tupianyangshi{
+	margin-bottom:10px;
+
+}
+.person{
+	color:red;
+	font-weight:bold;
+}
+#right_one ul li{
+	line-height:30px;
+	margin-left:13px;
+}
+#right_two{
+	width:280px;
+	margin-top:20px;
+	margin-bottom:20px;
+	backgroung-image:url(../images/show.bg.png);
+	height:362px;
+	border:1px solid #c9baa5;
+}
+.mingjiazhanshi{
+	margin-top:20px;
+	margin-bottom:15px;
+}
+.mingjia{
+	margin-left:25px;
+	margin-top:25px;
+}
+#right_two p{
+	line-height:20px;
+}
+#footer{
+	width:1000px;
+	padding-top:10px;
+	height:105px;
+	clear:both;
+	background:url(../images/foot.gif);
+	text-align:center;
+}
+.youqinglianjie{
+	margin-left:60px;
+	padding-top:10px;
+}

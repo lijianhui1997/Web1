@@ -1,0 +1,157 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	border:none;
+	font-family:'宋体';
+	list-style:none;
+}
+body{
+	width:100%;
+	font-size:12px;
+	background-image:url(../images/bodybg.gif)
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+#header{
+	height:205px;
+	background:url(../images/bg.gif) no-repeat center top;
+
+}
+#banner{
+	width:1000px;
+	height:130px;
+	padding-top:38px;
+	margin:auto;	
+}
+#banner img{
+	display:block;
+	margin-left:10px;
+}
+#nav{
+	height:40px;
+	background:url(../images/nav.jpg);
+	margin:auto;
+}
+.nav_content{
+	width:800px;
+	font-weight:bold;
+	color:#fff;
+	height:40px;
+	padding-top:12px;
+	margin-left:120px;
+	float:left;
+}
+.nav_content a{
+	color:#fff;
+}
+.nav_content a:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+.shouye{
+	color:#f9f603;
+}
+.nav_search{
+	float:left;
+	width:200px;
+	height:21px;
+	background-color:#f8f5ee;
+	margin-top:10px;
+	padding-right:0px;
+}
+.sousuokuang{
+	width:140px;
+	height:21px;
+	border:none;
+}
+.button{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#content{
+	width:1000px;
+	overflow:hidden;
+}
+#content_left{
+	width:180px;
+	margin:10px;
+	float:left;
+}
+#content_right{
+	width:780px;
+	margin:10px;
+	float:left;
+	font-size:14px;
+}
+#peixundongtai{
+	border:1px solid #c9baa5;
+}
+#zuijingengxin{
+	border:1px solid #c9baa5;
+	margin:10px;
+}
+#peixundongtai ul{
+	list-style:none;
+	height:180px;
+	padding:10px;
+}
+#zuijingengxin ul{
+	list-style:none;
+	height:100px;
+	padding:5px;
+}
+.zhaosheng{
+	color:red;
+	font-weight:bold;
+}
+#peixundongtai ul li{
+	font-size:13px;
+	padding:10px;
+}
+#zuijingengxin ul li{
+	font-size:13px;
+	padding:5px;
+}
+.baomingdianhua{
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+#content_right ul li{
+	font-size:16px;
+	padding:5px;
+}
+.riqi{
+	float:right;
+	font-size:16px;
+}
+#yeshu{
+	height:100px;
+	barder:1px solid #c9baa5;
+	font-size:14px;
+	padding:20px;
+}
+.ye{
+	background-image:url(../images/bg.png);
+	barder:1px solid #c9baa5;
+	padding:10px;
+}
+#footer{
+	width:1000px;
+	padding-top:10px;
+	height:105px;
+	clear:both;
+	background:url(../images/foot.gif);
+	text-align:center;
+}
+.youqinglianjie{
+	margin-left:60px;
+	padding-top:10px;
+}
