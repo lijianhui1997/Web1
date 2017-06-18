@@ -1,0 +1,128 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-size:12px;
+	font-family:'宋体';
+}
+a{
+	font-size:20px;
+	font-family:'宋体';
+	color:blue;
+}
+li{
+	list-style-image:url(../images/pot.gif);
+	text-align:left;
+	list-style-position:inside;
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color:orange;
+}
+body{
+	margin:auto;
+	background-image:url(../images/timg9.jpg);
+}
+#header{
+	height:210px;
+}
+.im{
+	height:160px;
+	width:100%;
+}
+#banner{
+	height:120px;
+	width:100%;
+	margin:auto;
+}
+.nav_content{
+	color:black;
+	width:800px;
+	height:40px;
+	padding-top:12px;
+	margin-left:120px;
+	float:left;
+}
+.yunnan{
+	font-size:26px;
+	color:orange;
+}
+.nav_search{
+	float:left;
+	width:200px;
+	height:21px;
+	background-color:#f8f5ee;
+	margin-top:10px;
+	padding-right:0px;
+}
+
+.sousuokuang{
+	width:140px;
+	height:21px;
+	border:none;
+}
+.button{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#content{
+	width:1000px;
+	margin:auto;
+	padding:10px;
+}
+h1{
+	font-size:30px;
+	font-family:'楷体';
+	float:left;
+}
+#tubiao{
+	height:90px;
+}
+.qiangke{
+	width:80px;
+	height:90px;
+	float:left;
+}
+.lishi{
+	width:150px;
+	height:80px;
+	float:right;
+}
+h2{
+	font-size:20px;
+}
+h3{
+	font-size:18px;
+}
+p{
+	font-size:16px;
+	padding:10px;
+	border:1px orange solid;
+}
+}
+.one{
+	font-size:16px;
+}
+
+
+
+#footer{
+	padding-top:10px;
+	height:105px;
+	clear:both;
+	background:url(../images/foot.gif);
+}
+.youqinglianjie{
+	margin-left:60px;
+	padding-top:10px;
+}
+.timg{
+	height:10px;
+	width:1000px;
+}
